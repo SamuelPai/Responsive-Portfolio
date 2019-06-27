@@ -230,7 +230,7 @@ input[type=submit] {
 }
 
 .animation {
-      animation: type 3s steps(9);
+      animation: type 1s steps(9);
       overflow: hidden;
       white-space: nowrap;
       font-family: consolas;
@@ -245,6 +245,24 @@ input[type=submit] {
   100% {
     width: 9ch;
   }
+}
+
+.animation2 {
+  animation: type 1s steps(7);
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: consolas;
+  border-right: 4px solid black;
+  width: 7ch;
+
+}
+@keyframes type {
+0% {
+width: 0ch;
+}
+100% {
+width: 7ch;
+}
 }
 
 
