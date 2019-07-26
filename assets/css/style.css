@@ -140,7 +140,8 @@ h3, h2 {
   position: relative;
   float: left;
   width: 274px;
-  margin: 20px 0 25px;
+  height: 230px;
+  margin: 25px;
   overflow: auto;
 }
 
@@ -217,6 +218,9 @@ input[type=submit] {
 
 }
 
+#trivia {
+  height: 200px;
+}
 
 .red {
   width: 100px;
