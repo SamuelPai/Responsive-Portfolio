@@ -221,6 +221,10 @@ input[type=submit] {
 #trivia {
   height: 200px;
 }
+#gifs {
+  height: 200px;
+
+}
 
 .red {
   width: 100px;
