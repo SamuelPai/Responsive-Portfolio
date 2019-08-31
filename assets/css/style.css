@@ -221,6 +221,9 @@ input[type=submit] {
 #trivia {
   height: 200px;
 }
+#liri {
+  height: 200px;
+}
 #gifs {
   height: 200px;
 
