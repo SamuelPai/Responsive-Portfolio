@@ -6,13 +6,14 @@
   <title>Contact | Your Name</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
 
   <header id="masthead">
     <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
+      <a href="index.html" id="logo">Sam Pai</a>
       <nav>
         <a href="index.html">About</a>
         <a href="portfolio.html">Portfolio</a>
@@ -25,7 +26,7 @@
     <section class="main-section">
       <h1 class="animation2">Contact</h1>
 
-      <form id="contact-form">
+      <form id="contact-form" action="https://script.google.com/macros/s/AKfycbzND8TAO1mIVaaxL850nnos--w2mhH6UpmLHTZ_L4bDIHNJHmcN/exec">
         <ul>
           <li>
             <label for="name">Name</label>
@@ -40,8 +41,9 @@
             <textarea id="message" name="message" required="required"></textarea>
           </li>
         </ul>
-        <input type="submit">
+        <input id="submitBtn" type="submit">
       </form>
+     
 
     </section>
 
@@ -52,6 +54,8 @@
       Copyright &copy; 
     </div>
   </footer>
+  
+  <script src="assets/javascript.js/javascript.js"></script>
 </body>
 
 </html>

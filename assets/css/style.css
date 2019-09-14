@@ -343,3 +343,9 @@ width: 7ch;
     margin-left: 0;
   }
 }
+#linkedIn, #gitHub, #gmail, #resume {
+  height: 40px;
+  width: 50px;
+  float: right;
+  padding: 0 0 0 10px;
+}
